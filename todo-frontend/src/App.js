@@ -1,10 +1,8 @@
-//App.js
-
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import TodoForm from "./TodoForm";
 import TodoList from "./TodoList";
-import "./App.css"; // Import the CSS file
+import "./App.css"; 
 
 function App() {
   const [todos, setTodos] = useState([]);
